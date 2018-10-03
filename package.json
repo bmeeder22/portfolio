@@ -3,6 +3,11 @@
     "name": "startbootstrap-freelancer",
     "version": "5.0.0",
     "description": "A freelancer portfolio HTML theme for Bootstrap.",
+    "scripts": {
+        "postinstall": "npm run build",
+        "start": "node server.js",
+        "build": "gulp"
+    },
     "keywords": [
         "css",
         "sass",
