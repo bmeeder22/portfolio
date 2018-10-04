@@ -6,3 +6,6 @@ app.use(serveStatic(__dirname));
 var port = process.env.PORT || 5000;
 app.listen(port);
 console.log('server started '+ port);
+
+// TODO add gulp to devdependecy
+// TODO remove vendor dir from git
