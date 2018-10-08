@@ -78,7 +78,7 @@
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
+              <img class="img-fluid" src="img/portfolio/wikipedia.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -88,7 +88,7 @@
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+              <img class="img-fluid" src="img/portfolio/twitter.png" alt="">
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
@@ -98,7 +98,7 @@
                   <i class="fas fa-search-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/circus.png" alt="">
+              <img class="img-fluid" src="img/portfolio/roomba.png" alt="">
             </a>
           </div>
         </div>
@@ -124,7 +124,7 @@
         <hr class="star-dark mb-5">
         <div class="row">
           <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fas fa-search-plus fa-3x"></i>
@@ -134,7 +134,7 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fas fa-search-plus fa-3x"></i>
@@ -144,7 +144,7 @@
             </a>
           </div>
           <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-7">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fas fa-search-plus fa-3x"></i>
@@ -270,7 +270,7 @@
 
     <!-- Portfolio Modals -->
 
-    <!-- Portfolio Modal 1 -->
+    <!-- Portfolio Modal 1 (wikiedia)-->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
       <div class="portfolio-modal-dialog bg-white">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -279,10 +279,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Degrees of Wikipedia</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cabin.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <img class="img-fluid mb-5" src="img/portfolio/wikipedia.png" alt="">
+              <p class="mb-5">The degrees of wikipedia project was initially inspired by online games that ask: “How many clicks does it take to get from one article on wikipedia to another?” After realizing that was a simple softest path graph algorithm, I decided that I should see if this could be turned into a simple web app with good user interface. I started by downloading the Wikipedia Graphical database dump which contained about 45Gb of XML files, which were then parsed and inserted into a Neo4j Graphical Database. From there with the database running and currently at about 14Gb in size, I created a simple PHP app that queried the server when a user searched the text, and returned results matching that search, then on form submit the application finds the shortest path between two articles and returns it as a list of cards on the page.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -292,7 +292,7 @@
       </div>
     </div>
 
-    <!-- Portfolio Modal 2 -->
+    <!-- Portfolio Modal 2 (twitter)-->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
       <div class="portfolio-modal-dialog bg-white">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -301,10 +301,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Twitter Hashtag Stock Market</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <img class="img-fluid mb-5" src="img/portfolio/twitter.png" alt="">
+              <p class="mb-5">The Twitter stock market project was conceived by seeing fake “economies” spring up on the internet as a joke for people guessing what the next big meme format would be. I decided that we would run a fictional stock market based on the usage and popularity of Twitter hashtags that users could bet fictional money on. The backend was achieved by using the Twitter Streaming API that allowed 1% of all tweets in the US to be streamed, parsed, and inserted into a MySql database, and exposed via a REST API created in a PHP framework called Lumen. The frontend was actually an Android Mobile app that made API calls to our backend. It was a great experience overall and gave me much experience into team development and working with large datasets.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -314,7 +314,7 @@
       </div>
     </div>
 
-    <!-- Portfolio Modal 3 -->
+    <!-- Portfolio Modal 3 (Roomba(-->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
       <div class="portfolio-modal-dialog bg-white">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
@@ -323,10 +323,10 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Roomba Mars Rover</h2>
               <hr class="star-dark mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/circus.png" alt="">
-              <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <p class="mb-5">The Roomba Rover project was a team based, final project for CprE 288 Embedded Systems Design. The goal of the assignment was to create a rover that could be remotely controlled by the team, and was able to sense its environment, and solve an obstacle course, without any member of our team using any of their senses. The Roomba had several sensors attached to it that fed raw data into a program that would interpret that the robot was seeing, and display it in a nice GUI on our screen (The GUI portion was extra credit). Our Roomba successfully navigated the obstacle course on its first official run and was a complete success, actually finishing several minutes below the time limit.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
                 Close Project</a>
@@ -367,9 +367,9 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Workiva</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/safe.png" alt="">
+              <img class="img-fluid mb-5" src="img/companies/workiva.png" alt="">
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
@@ -389,9 +389,9 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">Hudl</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+              <img class="img-fluid mb-5" src="img/companies/hudl.png" alt="">
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
@@ -411,9 +411,9 @@
         <div class="container text-center">
           <div class="row">
             <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Project Name</h2>
+              <h2 class="text-secondary text-uppercase mb-0">ServiceNow</h2>
               <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/submarine.png" alt="">
+              <img class="img-fluid mb-5" src="img/companies/servicenow.png" alt="">
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
               <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
                 <i class="fa fa-close"></i>
